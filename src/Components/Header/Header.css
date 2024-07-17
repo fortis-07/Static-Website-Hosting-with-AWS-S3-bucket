@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(11, 13, 33);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > img {
+  max-height: 10vh;
+  margin-inline: 5vw;
+}
+
+.header > p {
+  margin-right: 10px;
+}

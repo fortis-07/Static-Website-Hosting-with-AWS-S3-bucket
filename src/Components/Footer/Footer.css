@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.footer > a > img {
+    width: 20px;
+    padding-inline: 5px;
+    padding-block: 5px;
+    background-color: gray;
+    margin-inline: 10px;
+    margin-bottom: 20px;
+}

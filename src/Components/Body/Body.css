@@ -1,0 +1,62 @@
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 2vh;
+}
+
+.form {
+  margin-top: 2vh;
+  display: grid;
+  grid-template: 50px 50px/ 1fr 1fr;
+  gap: 15px;
+}
+
+.form > input {
+  text-indent: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  max-width: 40vw;
+}
+
+.form > button {
+  grid-column: 1/ -1;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(11, 13, 33);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.input > input {
+  margin: 10px;
+}
+
+.meme {
+  display: flex;
+}
+.meme > img {
+  max-width: 80vw;
+  max-height: 60vh;
+}
+
+.memetext--first {
+  position: absolute;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 3vw;
+  max-width: 40vw;
+  color: yellow;
+  margin-bottom: 20px;
+}
+.memetext--second {
+  position: absolute;
+  margin-top: 20vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 3vw;
+  max-width: 40vw;
+  color: yellow;
+}
